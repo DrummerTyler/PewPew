@@ -8,6 +8,13 @@ public final class PewPew extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
+        
+        // Fixed an issue where the plugin would proboably crash if the config file was empty.
+        
+        getConfig().addDefault("Bow-Used", "§1Pew");
+        
+        // End fix section
+        
         getConfig().options().copyDefaults();
         saveDefaultConfig();
         getServer().getPluginManager().registerEvents(new BowPew(), this);
