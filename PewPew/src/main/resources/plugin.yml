@@ -1,5 +1,0 @@
-name: PewPew
-version: ${project.version}
-main: me.tyler.pewpew.PewPew
-authors: [TylerR]
-description: Just A Little Bow Event That Desplays Text On The Screen XD
