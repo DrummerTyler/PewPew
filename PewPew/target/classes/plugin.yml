@@ -1,0 +1,5 @@
+name: PewPew
+version: 1.0-SNAPSHOT
+main: me.tyler.pewpew.PewPew
+authors: [TylerR]
+description: Just a little bow event that displays test on the screen XD

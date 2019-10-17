@@ -1,0 +1,6 @@
+name: PewPew
+version: ${project.version}
+main: me.tyler.pewpew.PewPew
+authors: [TylerR]
+description: Just a little bow event that displays test on the screen XD
+api-version: 1.13
